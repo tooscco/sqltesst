@@ -1,0 +1,37 @@
+ 
+ The full meaning of SQL is : Structured Query Language.
+ Sql can be defind as the used to perform various operations such as querying data, updating records, inserting new data, and deleting records in a database.
+
+
+
+
+
+list two of sql data types
+INTEGER: This data type is used to store whole numbers (both positive and negative) without decimals.
+
+VARCHAR: This data type is used to store variable-length character strings, such as text. It can hold letters, numbers, and special characters. The length of the string is specified in parentheses, e.g., VARCHAR(255).
+
+The three aggregate function are:
+
+COUNT(): Returns the number of rows that match a specified condition.
+
+SUM(): Returns the total sum of a numeric column.
+
+AVG(): Returns the average value of a numeric column.
+
+
+Section B
+
+2 query "DELECT FROM employees_table WHERE employee_id ='E02002'"
+
+3:Query "SELCET gender FROM employees_table WHERE gender = female AND ethnicity = asina DESC"
+
+4:Query "UPDATE employees_table SET Job_Title = Sir manager WHERE employee_id E02009 AND Job_Title= Analyst II"
+
+5: Query "DELETE FROM employees_table WHERE DATEDIFF(CURDATE(), birthdate)/365=>60"
+
+6: Query "SELECT UPPER(name) AS name, department FROM employees_table WHERE department IN('IT', 'Marketing', 'Engineering') ORDER by name ASC"
+
+7: "SELECT first_name, last_name, annual_salary FROM employees_table WHERE annual_salary > 7000 AND first_name, last_name NOT IN ('Kai Le', 'Ezra Vu', 'Jade Hu)"
+
+8: Query "SELECT 'Hello, My name is ',| first_name, last_name |'and i am a Director in the ', |department| 'my Business unit is ',|| "
